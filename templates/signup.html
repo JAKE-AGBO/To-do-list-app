@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/static/auth.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Sign Up</h2>
+
+    <form id="signup-form" onsubmit="signup(event)">
+        <input type="text" id="signup-username" placeholder="Username" required>
+        <input type="password" id="signup-password" placeholder="Password" required>
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <p>Already have an account? <a href="/">Login</a></p>
+</div>
+
+</body>
+</html>
